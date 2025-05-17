@@ -11,7 +11,7 @@ Auth::routes();
 Route::prefix('/')->controller(HomepageController::class)->group(function () {
     Route::get('', 'index')->name('homepage');
     Route::get('about', 'about')->name('about');
-    Route::get('governance', 'governance')->name('governance');
+    // Route::get('governance', 'governance')->name('governance');
     Route::get('events', 'events')->name('events');
     Route::get('blog', 'blog')->name('blog');
     Route::get('contact', 'contact')->name('contact');

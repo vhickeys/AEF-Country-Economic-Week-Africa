@@ -15,16 +15,8 @@
                                     <ul>
                                         <li class="{{ request()->routeIs('homepage') ? 'active' : '' }}"><a
                                                 href="{{ route('homepage') }}">Home</a></li>
-
-
-                                        <li class="{{ request()->routeIs('about', 'governance') ? 'active' : '' }}">
-                                            <a href="{{ route('about') }}">About</a>
-                                            <ul class="tp-submenu submenu">
-                                                <li class="{{ request()->routeIs('governance') ? 'active' : '' }}">
-                                                    <a href="{{ route('governance') }}">Governance</a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                        <li class="{{ request()->routeIs('about') ? 'active' : '' }}"><a
+                                                href="{{ route('about') }}">About</a></li>
 
                                         {{-- <li class="{{ request()->routeIs('research.fellows') ? 'active' : '' }}"><a
                                                 href="{{ route('research.fellows') }}">Research Fellows</a></li> --}}

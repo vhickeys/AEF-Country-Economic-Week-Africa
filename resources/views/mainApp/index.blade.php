@@ -106,7 +106,7 @@
                         </div>
                         <div class="tp-work-lwr-conent">
                             <h4 class="tp-ff-dmserif fw-400 fs-26 tp-text-theme-2"><a class="underline-lwr"
-                                    href="{{ route('governance') }}">To provide timely and expert perspectives on the economic
+                                    href="{{ route('about') }}">To provide timely and expert perspectives on the economic
                                     outlook of major African countries.</a></h4>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                         </div>
                         <div class="tp-work-lwr-conent">
                             <h4 class="tp-ff-dmserif fw-400 fs-26 tp-text-theme-2"><a class="underline-lwr"
-                                    href="{{ route('governance') }}">To identify emerging opportunities that drive inclusive
+                                    href="{{ route('about') }}">To identify emerging opportunities that drive inclusive
                                     growth and sustainable development.</a></h4>
                         </div>
                     </div>
@@ -132,7 +132,7 @@
                         </div>
                         <div class="tp-work-lwr-conent">
                             <h4 class="tp-ff-dmserif fw-400 fs-26 tp-text-theme-2"><a class="underline-lwr"
-                                    href="{{ route('governance') }}">To promote collaborative dialogue between public and private
+                                    href="{{ route('about') }}">To promote collaborative dialogue between public and private
                                     sector stakeholders</a></h4>
                         </div>
                     </div>
